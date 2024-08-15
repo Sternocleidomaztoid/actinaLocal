@@ -1,0 +1,39 @@
+.whiteHeader {
+    background-color: #ffffff;
+    height: 60px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+}
+
+.logoContainer img {
+    height: 50px;
+    /* padding: 10px 0px 5px 0px; */
+    margin: 4px 0px 0px 0px;
+}
+
+.logoContainer .homeA {
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.user {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #037e6a;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}

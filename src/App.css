@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 90vh;
+    background: #148572;
+}
+
+#root {
+    margin: auto;
+    background-image: url('./assets/img/trama5.png');
+    background-repeat: repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+.activities,
+.classifications,
+.questions,
+.flashcard {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0px;
+    max-width: 500px;
+}
+
+.questions li {
+    list-style: none;
+}
+
+.activities li a,
+.classifications li a,
+.questions li {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.activities li a,
+.classifications li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+
+.activities li,
+.classifications li {
+    margin: 10px;
+    border-radius: 7px;
+    height: 100%;
+    min-height: 50px;
+    width: 400px;
+    color: #000000;
+}
+
+
+
+.activities li a:hover,
+.classifications li a:hover {
+    color: #ffffff;
+}
+
+
+.bgBlue {
+    background: #ffffff;
+    /* color: #000000; */
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to bottom right, #005c97, #363795); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to bottom right, #005c97, #363795); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bgBlue:hover {
+    background-color: #000000;
+
+}
+
+.bgWhite {
+    background: #ffffff;
+}
+
+.bgRed {
+    background: #870000;
+    /* background: -webkit-linear-gradient(to bottom right, #870000, #190a05);
+    background-image: linear-gradient(to bottom right, #870000, #190a05); */
+}
+
+.bgGreen {
+    background: #006000;
+    /* background: -webkit-linear-gradient(to bottom right, #006000, #190a05);
+    background-image: linear-gradient(to bottom right, #006000, #190a05); */
+}
+
+.questions,
+.flashcard {
+    margin: 0px 0px 10px 0px;
+    border-radius: 7px;
+}
+
+.questions li,
+.flashcard {
+    padding: 10px;
+}
+
+.solidBgHeading h1,
+.solidBgHeading h2,
+.solidBgHeading h3 {
+    font-weight: 400;
+    display: inline-block;
+    padding: 6px 12px;
+    background: white;
+    color: black;
+    border-radius: 7px;
+    margin: 40px auto 30px;
+}
+
+
+/* me salte un par de stylos aca */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* width: 60vw; */
+    margin: auto;
+    padding: 0px 60px 0px 0px;
+}
+
+
+.divContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.btnBackWhite {
+    width: 120px;
+    height: 35px;
+    border-radius: 100px;
+    border: 0px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: 10px;
+    color: #037e6a;
+    background-color: white;
+}
+
+.btnBackWhite:hover {
+    color: white;
+    background-color: #17a78f;
+}
+
+.btnBack {
+    width: 120px;
+    height: 35px;
+    border-radius: 100px;
+    border: 0px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: #037e6a;
+}
+
+.btnMedium {
+    width: 130px;
+    height: 35px;
+    border-radius: 100px;
+    border: 0px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #037e6a;
+}
+
+.btnBack:disabled, .btnMedium {
+    background-color: grey;
+    color: white;
+    cursor: not-allowed;
+}
+
+.btnBack:hover, .btnMedium:hover, .btnLarge:hover {
+    color: #ffffff;
+    background-color: #17a78f;
+}
+
+
+
+.btnLarge {
+    width: 180px;
+    height: 35px;
+    border-radius: 100px;
+    border: 0px;
+    font-weight: 600;
+}
+
+.buttonContainer {
+    background-color: #ffffff;
+}
+
+.btnMg {
+    margin: 20px 0px 0px 0px;
+    font-size: 14px;
+}
+
+.buttonDivider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    min-width: 300px;
+}
+
+.buttonEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.buttonBack {
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 {
+    color: #ffffff;
+}
+
+.bottomActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.bottomActions button,
+.buttonWhite {
+    background-color: white;
+    color: #037e6a;
+    padding: 6px 12px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.bottomActions button:disabled {
+    opacity: .5;
+}
+
+.buttonWhite:hover {
+    background-color: #17a78f;
+    color: #ffffff;
+}
+
+.topMar {
+    margin-top: 10px;
+}

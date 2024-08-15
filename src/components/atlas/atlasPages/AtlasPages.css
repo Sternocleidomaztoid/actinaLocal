@@ -1,0 +1,52 @@
+.atlasImageContainer img {
+    max-height: 500px;
+    display: flex;
+    margin: auto;
+}
+
+.atlasItem {
+    list-style: none;
+}
+
+/*  */
+.mg {
+    margin: 0px 0px 0px 10px;
+}
+
+.respuesta {
+    padding: 10px 20px 10px 20px;
+}
+
+.atlasItem.blurred {
+    filter: blur(3px);
+}
+
+.atlasItem.blurred {
+    opacity: 0.7;
+}
+
+.btnBlurContainer {
+    list-style: none;
+}
+
+.itemContainer {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px 10px 0px;
+}
+
+.itemContainer li:nth-child(2) {
+    margin-right: 30px;
+}
+
+.itemContainer li:last-child {
+    margin-left: auto;
+}
+
+.switchBlurBtn {
+    margin: 10px auto 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
