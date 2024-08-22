@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/actinaLocal/static/css/main.786960d7.css",
-    "main.js": "/actinaLocal/static/js/main.01799a20.js",
+    "main.js": "/actinaLocal/static/js/main.18ea6d6f.js",
     "static/media/trama5.png": "/actinaLocal/static/media/trama5.81327ab290dfc01ce27b.png",
     "static/media/dorsoMusculosExtrinsecos.png": "/actinaLocal/static/media/dorsoMusculosExtrinsecos.13f58e83f8c6c9222431.png",
     "static/media/craneoVisionAnterior.png": "/actinaLocal/static/media/craneoVisionAnterior.1e1a7a3249b628d0b74a.png",
@@ -10,10 +10,10 @@
     "static/media/nervioPeroneoComun.png": "/actinaLocal/static/media/nervioPeroneoComun.4b4ed71e2b81c196e61b.png",
     "index.html": "/actinaLocal/index.html",
     "main.786960d7.css.map": "/actinaLocal/static/css/main.786960d7.css.map",
-    "main.01799a20.js.map": "/actinaLocal/static/js/main.01799a20.js.map"
+    "main.18ea6d6f.js.map": "/actinaLocal/static/js/main.18ea6d6f.js.map"
   },
   "entrypoints": [
     "static/css/main.786960d7.css",
-    "static/js/main.01799a20.js"
+    "static/js/main.18ea6d6f.js"
   ]
 }
