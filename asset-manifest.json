@@ -1,19 +1,25 @@
 {
   "files": {
     "main.css": "/actinaLocal/static/css/main.786960d7.css",
-    "main.js": "/actinaLocal/static/js/main.18ea6d6f.js",
+    "main.js": "/actinaLocal/static/js/main.a165e21c.js",
     "static/media/trama5.png": "/actinaLocal/static/media/trama5.81327ab290dfc01ce27b.png",
     "static/media/dorsoMusculosExtrinsecos.png": "/actinaLocal/static/media/dorsoMusculosExtrinsecos.13f58e83f8c6c9222431.png",
     "static/media/craneoVisionAnterior.png": "/actinaLocal/static/media/craneoVisionAnterior.1e1a7a3249b628d0b74a.png",
     "static/media/atrioVentricuIoIzquierdo.png": "/actinaLocal/static/media/atrioVentricuIoIzquierdo.5f9eccb0ef251fde7c71.png",
     "static/media/brazo.png": "/actinaLocal/static/media/brazo.8c88450fc9ad61a440b1.png",
     "static/media/nervioPeroneoComun.png": "/actinaLocal/static/media/nervioPeroneoComun.4b4ed71e2b81c196e61b.png",
+    "static/media/1mmsAnatomiaDeSuperficie2.jpg": "/actinaLocal/static/media/1mmsAnatomiaDeSuperficie2.91ac562281e57c37ab64.jpg",
+    "static/media/1mmsAnatomiaDeSuperficie1.jpg": "/actinaLocal/static/media/1mmsAnatomiaDeSuperficie1.ae86d2fff2befd90be11.jpg",
+    "static/media/1mmsAnatomiaDeSuperficie4.jpg": "/actinaLocal/static/media/1mmsAnatomiaDeSuperficie4.e27b7a8670098315f0bc.jpg",
+    "static/media/1mmsAnatomiaDeSuperficie6.jpg": "/actinaLocal/static/media/1mmsAnatomiaDeSuperficie6.44042fac64e082fd2d37.jpg",
+    "static/media/1mmsAnatomiaDeSuperficie5.jpg": "/actinaLocal/static/media/1mmsAnatomiaDeSuperficie5.fce59e0889f444417441.jpg",
+    "static/media/1mmsAnatomiaDeSuperficie3.jpg": "/actinaLocal/static/media/1mmsAnatomiaDeSuperficie3.ae455913b23adb7553f5.jpg",
     "index.html": "/actinaLocal/index.html",
     "main.786960d7.css.map": "/actinaLocal/static/css/main.786960d7.css.map",
-    "main.18ea6d6f.js.map": "/actinaLocal/static/js/main.18ea6d6f.js.map"
+    "main.a165e21c.js.map": "/actinaLocal/static/js/main.a165e21c.js.map"
   },
   "entrypoints": [
     "static/css/main.786960d7.css",
-    "static/js/main.18ea6d6f.js"
+    "static/js/main.a165e21c.js"
   ]
 }
